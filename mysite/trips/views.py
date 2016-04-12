@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from .models import Post
 from elasticsearch_dsl import Search
-from django.http import HttpResponse
 
 
 def home(request):
